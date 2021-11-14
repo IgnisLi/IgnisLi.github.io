@@ -1,0 +1,422 @@
+# Team directory
+# Accepts markdown in `description` (needs escaping for few chars)
+
+- name: Nicholas Reich
+  role: Principal Investigator
+  description: |
+    Nick is a Professor of Biostatistics at UMass. He received his
+    PhD in Biostatstics from Johns Hopkins, where he also did his post-doctoral
+    training in infectious disease epidemiology. He also enjoys spending time outside
+    with his family (hiking, camping, canoeing, gardening).
+  image: /images/people/nick.jpg
+  links:
+    - name: ai ai-google-scholar-square ai-2x
+      url: "https://scholar.google.com/citations?hl=en&user=AQUsdvkAAAAJ"
+    - name: flaticon-twitter-1
+      url: "https://twitter.com/reichlab"
+    - name: flaticon-curriculum
+      url: "http://reichlab.io/pdfs/cv/cvReich.pdf"
+
+- name: Evan Ray
+  role: Research Faculty
+  description: |
+    Evan is a Research Assistant Professor of Biostatistics at UMass-Amherst. 
+    He received his PhD in statistics from UMass-Amherst, developing
+    methods to infer physical activity type and intensity from accelerometer
+    data. A former post-doc in the Reich Lab, he also works on developing
+    methods for predicting infectious disease outbreaks.
+  image: /images/people/evan.jpg
+  links:
+    - name: flaticon-curriculum
+      url: /pdfs/people/Evan_L_Ray_CV.pdf
+    - name: flaticon-laptop-1
+      url: "http://www.mtholyoke.edu/~eray/"
+
+# Student section (PhD, MS, undergrad students, in order of seniority)
+
+- name: Xi Meng
+  role: PhD Student
+  description: |
+     Xi received her BS degree from Beijing Institute of Technology with a major
+     in Electrical Engineering. Her PhD research focuses on using particle
+     filtering approaches to draw inference about dynamics in complex,
+     multi-strain infectious disease settings.
+  image: /images/people/xi.png
+  links:
+    - name: flaticon-curriculum
+      url: "https://drive.google.com/file/d/0B66FkAegj6nrdlZPSXlIZm9jWDQ/view"
+
+- name: Nutcha Wattanachit
+  role: PhD Student
+  description: |
+    Nutcha is pursuing her PhD in Biostatistics. She is interested in infectious disease forecasting,
+    causal inference, and ensemble methods.
+  image: /images/people/nutcha.jpg
+  links: []
+
+- name: Estee Cramer
+  role: PhD Student
+  description: |
+    Estee is a PhD student in epidemiology. She is interested in infectious disease transmission and malaria surveillance. She received her MPH in global health from Case Western Reserve University. In her free time she enjoys traveling.
+  image: /images/people/Estee.jpg
+  links:
+    - name: flaticon-curriculum
+      url: /pdfs/people/CV_EsteeCramer_July2020.pdf
+    - name: flaticon-linkedin-1  
+      url: “https://www.linkedin.com/in/estee-cramer-48860a167/”
+
+- name: Ariane Stark
+  role: PhD Student
+  description: |
+    Ariane is a PhD student in biostatistics. She received her undergraduate degree in Mathematics from the Georgia Institute of Technology. 
+    She is interested in infectious disease forecasting. In her free time she likes to play bridge (a card game). 
+  image: /images/people/ariane.jpg
+  links:
+    - name: flaticon-linkedin-1  
+      url: “https://www.linkedin.com/in/arianestark/”
+      
+- name: Vrushti Mody
+  role: MS Student
+  description: |
+    Vrushti is an MS student in Computer Science. She received her undergraduate degree in Computer Engineering from NMIMS University. 
+    The ability to reach a wider audience, one health problem at a time is what inspired her to join the lab. She is bubbly, outgoing with a great sense of humor. 
+  image: /images/people/vrushti-mody.jpeg
+  links:
+    - name: flaticon-linkedin-1  
+      url: “https://www.linkedin.com/in/vrushti-mody/”
+    - name: flaticon-laptop-1
+      url: "https://vrushtimody.me"
+    - name: flaticon-github-1
+      url: "https://github.com/vrushti-mody"  
+
+- name: Vidhi Mody
+  role: MS Student
+  description: |
+    Vidhi is a Masters student in Computer Science. She is a curious person who enjoys figuring out the building blocks of the world, and rearranging them to build something even better! She is innovative, energetic, creative and loves to travel in her free time.
+  image: /images/people/vidhi-mody.jpg
+  links:
+    - name: flaticon-linkedin-1  
+      url: “https://www.linkedin.com/in/vidhi-mody/”
+    - name: flaticon-laptop-1
+      url: "https://vidhimody.me"
+    - name: flaticon-github-1
+      url: "https://github.com/vidhi-mody" 
+
+- name: Aaron Gerding
+  role: MS Student
+  description: |
+    Aaron is pursuing a degree in biostatistics after a previous career lecturing in the UMass-Amherst math department.  He is especially interested in how the public health needs of populations with low social or political visibility should inform forecasting and risk assessment methodologies.
+  image: /images/people/aaron.jpg
+  links: []
+  
+- name: Dasuni Jayawardena
+  role: Undergraduate Student
+  description: |
+    Dasuni is an Undergrad Mathematics major with a Statistics concentration who aspires to apply mathematical and statistical techniques to help solve real-world problems. IN her free time she likes painting, listening to music and hiking.
+  image: /images/people/Dasuni.JPG
+  links: []
+
+- name: Álvaro J. Castro Rivadeneira
+  role: PhD Student
+  description: |
+    Álvaro is a PhD student in epidemiology. He is interested in science communication, economic inequality, gambling, and infectious diseases. He received his MD from Universidad Internacional del Ecuador, and a BSc in Biochemistry from McGill University.
+  image: /images/people/alvaro.jpeg
+  links:
+    - name: flaticon-twitter-1
+      url: "https://twitter.com/micokoch"
+    - name: flaticon-github-1
+      url: "https://github.com/micokoch"
+    - name: flaticon-linkedin-1
+      url: "https://www.linkedin.com/in/alvaro-j-castro-rivadeneira/"
+      
+- name: Li Shandross
+  role: Undergraduate Student
+  description: |
+    Li is an Undergrad Mathematics major with a Statistics and Data Science concentration.
+    Li is also a part of the Biostatistics 4+1 program and has an interest in model accuracy.
+    In her free time, she enjoys dancing and writing. 
+  image: /images/people/li.jpg
+  links: 
+    - name: flaticon-github-1
+      url: "https://github.com/lshandross"  
+
+# Staff section
+
+- name: Matthew Cornell
+  role: Software Engineer
+  description: |
+    Matt is the lab\'s research software engineer. His M.S. is in Computer
+    Science from UMass/Amherst, and his B.S. is in E.E. Before grad school he
+    worked for NASA\'s Kennedy Space Center in Space Shuttle operations. Since
+    then he\'s worked for decades in various AI research labs, writing all types
+    of software.
+  image: /images/people/matt.jpg
+  links:
+    - name: flaticon-laptop-1
+      url: "http://www.matthewcornell.org"
+    - name: flaticon-linkedin-1
+      url: "https://www.linkedin.com/in/matthewcornell"
+
+- name: Martha Zorn
+  role: Data analyst/Project manager
+  description: |
+    Martha has worked as a biostatistician and data manager in the School of Public Health and Health Sciences, Amherst since 1987. She likes doing anything outside and garland dancing.
+  image: /images/people/martha.jpg
+  links:
+    - name: flaticon-linkedin-1
+      url: "https://www.linkedin.com/in/martha-zorn-20015628/"
+
+- name: Serena Yijin Wang
+  role: Data Analyst
+  description: |
+    Serena graduated Magna cum laude from Mount Holyoke College. She was a double major of Computer Science and Statistics. She is very intersted in infectious disease forecasting. In her free time, she enjoys traveling and reading about Art History.
+  image: /images/people/serena.jpg
+  links:
+      - name: flaticon-github-1
+        url: "https://github.com/Serena-Wang"
+      - name: flaticon-linkedin-1
+        url: "https://www.linkedin.com/in/serena-wang-899562119/"
+
+- name: Yuxin David Huang
+  role: Software Engineer
+  description: |
+    Yuxin is a software engineer with a mathematics background. He has a B.A. in
+    Computer Science and Mathematics from Colgate University and recently graduated
+    from UMass Amherst with a M.S. in Computer Science. In his free time he enjoys
+    watching comedy/satirical shows and Twitch streams, link-surfing on Wikipedia,
+    and playing basketball.
+  image: /images/people/yuxin.jpg
+  links:
+    - name: flaticon-github-1
+      url: "https://github.com/ydhuang28"
+    - name: flaticon-linkedin-1
+      url: "https://www.linkedin.com/in/yuxin-david-huang-aa663547/"
+  
+# Alumni Section
+
+
+- name: Trust Okorie
+  description: |
+
+  role: Undergrad intern (2021)
+  type: Alumni
+  image: /images/people/trust.jpg
+  links:
+    - name: alumni_link
+      url: "https://www.linkedin.com/in/tokorie/"
+
+- name: Richa Jain
+  role: Undergrad intern (2021)
+  description: |
+   
+  image: /images/people/Richa.jpg
+  type: Alumni
+  links: 
+    - name: alumni_link
+      url: "www.linkedin.com/in/richa-jain-0a6a19147"
+
+- name: Khoa Le
+  role: MS Student/Software Engineer (2019-2021)
+  type: Alumni
+  description: |
+
+  image: /images/people/khoa.jpg
+  links:
+    - name: flaticon-github-1
+      url: "https://github.com/Khoale1096"
+    - name: flaticon-linkedin-1
+      url: "https://www.linkedin.com/in/khoagle/"
+
+- name: Abdul Hannan Kanji
+  role: MS Student/Software Engineer (2020-2021)
+  type: Alumni
+  description: |
+
+  image: /images/people/abdul.jpg
+  links:
+    - name: flaticon-github-1
+      url: "https://github.com/hannanabdul55"
+    - name: flaticon-laptop-1
+      url: "https://abdulhannan.in"
+
+- name: Apurv Shah
+  role: Undergraduate Student/Software Engineer (2021)
+  type: Alumni
+  description: |
+
+  image: /images/people/apurv.jpg
+  links:
+    - name: flaticon-github-1
+      url: "https://github.com/ApurvShah007"
+    - name: flaticon-linkedin-1
+      url: "https://www.linkedin.com/in/apurv-shah/"
+
+- name: Ayush Khandelwal
+  role: Undergraduate Student/Software Engineer (2020)
+  description: |
+
+  type: Alumni
+  image: /images/people/ayush.jpg
+  links:
+    - name: flaticon-linkedin-1  
+      url: "https://www.linkedin.com/in/ayushkhd"
+    - name: flaticon-github-1
+      url: "https://github.com/ayushkhd"
+
+- name: Tom McAndrew
+  role: Postdoctoral Fellow (2018-2020)
+  description: |
+
+  type: Alumni
+  image: /images/people/tom.jpg
+  links:
+    - name: alumni_link
+      url: "http://www.thomasmcandrew.com/"
+
+- name: Katie House
+  role: Software Developer (2018-2020)
+  description: |
+
+  type: Alumni
+  image: /images/people/katie.jpg
+  links:
+    - name: alumni_link
+      url: "http://www.katie-house.com"
+      
+- name: Justin Stott
+  role: Undergrad RA (2019-2020)
+  description: |
+
+  type: Alumni
+  image: images/people/justinstott.jpg
+  links: []
+
+
+- name: Stephen Lauer
+  role: PhD Student (2014-2019)
+  description: |
+
+  type: Alumni
+  image: /images/people/steve.jpg
+  links:
+    - name: alumni_link
+      url: "https://scholar.google.com/citations?user=EEKbG5sAAAAJ&hl=en"
+
+- name: Alexandria (Lexi) Brown
+  role: Post-doctoral Fellow (2015-2018)
+  description: |
+
+  type: Alumni
+  image: /images/people/lexi.jpg
+  links:
+    - name: alumni_link
+      url: "https://www.linkedin.com/in/alexandria-lexi-brown-phd/"
+
+- name: Coco Kusiak
+  role: MS Student (2017-2018)
+  description: |
+
+  type: Alumni
+  image: /images/people/coco.jpg
+  links:
+    - name: alumni_link
+      url: "https://github.com/ckusiak17"
+
+- name: Willow Crawford-Crudell
+  role: Undergrad Intern (2018)
+  description: |
+
+  type: Alumni
+  image: /images/people/willow.jpg
+  links: []
+
+- name: Dean Gladish
+  role: Undergrad Intern (2018)
+  description: |
+
+  type: Alumni
+  image: /images/people/dean.jpg
+  links:
+    - name: alumni_link
+      url: "https://github.com/deangladish"
+
+- name: Rebecca Silva
+  role: Undergrad Intern (2018)
+  description: |
+
+  type: Alumni
+  image: /images/people/rebecca.jpg
+  links:
+    - name: alumni_link
+      url: "https://github.com/rsilva19"
+
+- name: Abhinav Tushar
+  role: MS Student (2016-2018)
+  description: |
+
+  type: Alumni
+  image: /images/people/abhinav.jpg
+  links:
+    - name: alumni_link
+      url: "https://github.com/lepisma"
+
+- name: Kristina Yamkovoy
+  role: Undergrad Researcher (2017-2018)
+  description: |
+
+  type: Alumni
+  image: /images/people/kristina.jpg
+  links:
+    - name: alumni_link
+      url: "https://github.com/kyamkovoy"
+
+- name: Evan Moore
+  role: Undergrad Researcher (2018)
+  description: |
+
+  type: Alumni
+  image: /images/people/evan-m.jpg
+  links:
+    - name: alumni_link
+      url: "https://github.com/evanm31"
+
+- name: Harley Jean
+  role: Undergrad Researcher (2016-2017)
+  description: |
+
+  type: Alumni
+  image: /images/people/harley.jpeg
+  links: []
+
+- name: Justin Baldwin
+  role: MS Student (2016-2017)
+  description: |
+
+  type: Alumni
+  image: /images/people/justin.jpg
+  links:
+    - name: alumni_link
+      url: "https://www.researchgate.net/profile/Justin_Baldwin"
+
+
+- name: Krzysztof Sakrejda
+  description: |
+
+  role: Post-doctoral Fellow (2015-2017)
+  type: Alumni
+  image: /images/people/krzysztof.jpg
+  links:
+    - name: alumni_link
+      url: "https://github.com/sakrejda"
+
+- name: Graham Casey Gibson
+  role: PhD Student
+  description: |
+
+  image: /images/people/casey.jpg
+  type: Alumni
+  links: 
+    - name: alumni_link
+      url: "https://gcgibson.github.io/"
+      
+
