@@ -1,0 +1,150 @@
+---
+layout: home
+---
+<!-- Home Page Carousel -->
+<section class="container grid-custom">
+  <div class="carousel">
+    <div>
+      <a href="/research">
+        <img class="carousel-home-image" src="images/carousel/new_1.png" alt="" />
+        <div class="info bottom-caption panel-title">infectious disease forecasting</div>
+      </a>
+    </div>
+    <div>
+      <a href="/2017/11/28/flusight-ensemble.html">
+        <img class="carousel-home-image" src="images/carousel/new_2.png" alt="" />
+        <div class="info bottom-caption panel-title">ensemble learning</div>
+      </a>
+    </div>
+    <div>
+      <a href="http://flusightnetwork.io/">
+        <img class="carousel-home-image" src="images/carousel/new_4.png" alt="" />
+        <div class="info top-caption panel-title">interactive visualization</div>
+      </a>
+    </div>
+    <div>
+      <a href="/publications">
+        <img class="carousel-home-image" src="images/carousel/new_5.png" alt="" />
+        <div class="info top-caption panel-title">biostatistics research</div>
+      </a>
+    </div>
+    <div>
+      <a href="/publications">
+        <img class="carousel-home-image" src="images/carousel/new_6.png" alt="" />
+        <div class="info bottom-caption panel-title">data science</div>
+      </a>
+    </div>
+    <div>
+      <a href="/people">
+        <img class="carousel-home-image" src="images/carousel/new_7.png" alt="" />
+        <div class="info top-caption panel-title">the lab</div>
+      </a>
+    </div>
+    <div>
+      <a href="/research">
+        <img class="carousel-home-image" src="images/carousel/new_8.png" alt="" />
+        <div class="info bottom-caption panel-title">big data</div>
+      </a>
+    </div>
+    <div>
+      <a href="/publications">
+        <img class="carousel-home-image" src="images/carousel/new_9.png" alt="" />
+        <div class="info bottom-caption panel-title">scientific communication</div>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- End of Carousel-->
+<div class="columns">
+  <div class="column col-12">
+    <h3>
+      Welcome to the lab website for Nicholas Reich
+    </h3>
+  </div>
+</div>
+<div class="columns">
+  <div class="column col-4 col-md-12">
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title"><i class="fa fa-bar-chart"></i> Biostatistics and Public Health</div>
+      </div>
+      <div class="panel-body">
+        <p>
+          Our team develops statistical methods and analytical tools to help
+          people make sense of data. Building on close collaborative
+          relationships with public health practitioners from across the world -- from
+          Denver to San Juan to Bangkok -- we use modern statistical and machine
+          learning tools to gain insights into complex disease systems.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="column col-4 col-md-12">
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title"><i class="fa fa-terminal"></i> Data Science</div>
+      </div>
+      <div class="panel-body">
+        <p>
+          We build software packages, maintain code repositories, develop 
+          databases, create interactive data visualizations, and run
+          computationally intensive simulation studies. Depending on the project, we code using mix of R, python, javascript, d3, C, and C++.
+        </p>
+        <p>
+          Check out our work on <a href="https://github.com/reichlab">GitHub</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="column col-4 col-md-12">
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title"><i class="fa fa-globe"></i> Infectious Disease Epidemiology</div>
+      </div>
+      <div class="panel-body">
+        <p>
+          Our team develops models for understanding complex and dynamic systems
+          of infectious disease. We have
+          <a href="http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004761">
+            developed real-time forecasts of dengue fever in Thailand</a>,
+          <a href="http://rsif.royalsocietypublishing.org/content/10/86/20130414.short">
+            estimated the duration of cross-protection between serotypes of dengue</a>,
+          and <a href="http://reichlab.io/2017/11/28/flusight-ensemble.html">predicted the
+          trajectory of the flu season in the US</a>. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column col-12">
+    <h3>
+      Recent news
+    </h3>
+  </div>
+  <div class="column col-8 col-md-12">
+    <div class="panel">
+      <div class="panel-header"></div>
+      <div class="panel-body">
+        {% for post in site.categories.blog limit:site.paginate %}
+          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+          <p><i class="fa fa-clock-o"></i> Posted on {{ post.date | date: '%d %B, %Y' }}</p>
+          <p>{{ post.excerpt }}</p>
+          <p>
+            <a class="btn btn-sm btn-default" href="{{ site.baseurl }}{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
+          </p>
+          <br>
+          <div class="divider"></div>
+        {% endfor %}
+      </div>
+      <div class="panel-body">
+        <p class="float-right">
+          <a href="{{ site.baseurl }}/blog" class="btn btn-sm btn-primary">Go to blog for more <i class="fa fa-angle-right"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="column col-4 hide-md">
+    {% include tweets.html %}
+  </div>
+</div>

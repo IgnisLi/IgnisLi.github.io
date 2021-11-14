@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+<h1>Publications</h1>
+
+<div>
+  <div class="keyword-toggle-container">
+  <span class="label">Filter by keywords</span>
+    <span class="btn btn-sm btn-default btn-keyword-all">
+        All
+    </span>
+    <span class="btn btn-sm btn-default btn-keyword-none">
+      None
+    </span>
+  </div>
+  <div class="keyword-btn-container">
+    {% for keyword in page.keywords %}
+      <span class="chip active btn-keyword">{{ keyword }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+{% for year_item in page.items %}
+  <div class="pub-list columns">
+    {% unless year_item.year == 9999 %}
+      <div class="column col-12">
+        <h3 class="pub-year">{{ year_item.year }}</h3>
+      </div>
+    {% endunless %}
+    {% for item in year_item.items %}
+      <div class="column pub-item col-12" id="{{ item.slug }}">
+        <div class="card-publication columns">
+          <div class="card-image column col-2 col-sm-12">
+            <a href="#pub={{ item.slug }}">
+              <img class="rounded pub-image" src="images/publications/{{ item.slug }}.png">
+            </a>
+          </div>
+          <div class="column col-10 col-sm-12">
+            <div class="card-header">
+              <h4 class="card-title">
+                <a href="#pub={{ item.slug }}" class="pub-title">{{ item.title }}</a>
+              </h4>
+              <h6 class="card-subtitle">
+                {{ item.authors }} ({{item.year}}){% if item.cite_text %}. {{ item.cite_text }}{% endif %}.
+              </h6>
+            </div>
+            <div class="card-footer">
+              {% if item.keywords.size > 0 %}
+                <div class="pub-keywords">
+                  {% for keyword in item.keywords %}
+                    <span class="label pub-keyword">{{ keyword }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              <div class="pub-btns">
+                {% if item.pdf %}
+                  <a class="btn btn-link btn-sm pub-btn tooltip"
+                     data-tooltip="Get pdf"
+                     href="{{ item.pdf }}">
+                    <i class="fa fa-file-pdf-o"></i> pdf
+                  </a>
+                {% else %}
+                  <a class="btn btn-link btn-sm pub-btn tooltip"
+                     data-tooltip="Get pdf"
+                     href="/pdfs/publications/{{ item.slug }}.pdf">
+                    <i class="fa fa-file-pdf-o"></i> pdf
+                  </a>
+                {% endif %}
+                {% if item.doi %}
+                  <a class="btn btn-link btn-sm pub-btn tooltip"
+                     data-tooltip="Open doi link"
+                     href="https://doi.org/{{ item.doi }}"
+                     target="_blank">
+                    <i class="fa fa-external-link"></i> article
+                  </a>
+                  <a class="btn btn-link btn-sm pub-btn tooltip"
+                     data-tooltip="Save to mendeley"
+                     href="http://www.mendeley.com/import/?url=https://doi.org/{{ item.doi }}"
+                     target="_blank">
+                    <i class="fa fa-save"></i> save
+                  </a>
+                {% endif %}
+                {% if item.preprint %}
+                  <a class="btn btn-link btn-sm pub-btn tooltip"
+                     data-tooltip="Open preprint"
+                     href="{{ item.preprint }}"
+                     target="_blank">
+                    <i class="fa fa-external-link"></i> preprint
+                  </a>
+                {% endif %}
+                {% if item.github %}
+                  <a class="btn btn-link btn-sm pub-btn tooltip"
+                     data-tooltip="Open github repository"
+                     href="https://github.com/{{ item.github }}"
+                     target="_blank">
+                    <i class="fa fa-github-alt"></i> github
+                  </a>
+                {% endif %}
+              </div>
+              <div class="pub-abstract">
+                <h6>Abstract</h6>
+                  {{ item.abstract }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/publications.js"></script>
