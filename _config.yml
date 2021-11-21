@@ -1,12 +1,12 @@
-title: "Nicholas Reich: Biostatistics and Infectious Disease Epidemiology"
-description: "Reich Lab @ UMassAmherst"
-author: "Nicholas Reich"
+title: "Blockchain Technology and Cybersecurity (BTC) Lab"
+description: "BTC Lab @ University of Guelph"
+author: "Xiaodong Lin"
 baseurl: ""
-url: "http://reichlab.io/"
+url: "http://BtclabGuelph.github.io/"
 
-twitter_username: reichlab
-github_username: reichlab
-source_url: "https://github.com/reichlab/reichlab.github.io"
+twitter_username: btclabguelph
+github_username: BtclabGuelph
+source_url: "https://github.com/BtclabGuelph/BtclabGuelph.github.io"
 
 # Build settings
 markdown: kramdown
